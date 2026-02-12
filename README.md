@@ -86,11 +86,26 @@ L’utilisateur peut parcourir un catalogue de films, filtrer et trier les résu
 ## Structure du projet
 
 src/
- ├── components/
- ├── data/
- ├── assets/
- ├── App.jsx
- └── main.jsx
+│
+├── components/
+│   ├── Header.jsx
+│   ├── SearchBar.jsx
+│   ├── Filters.jsx
+│   ├── SortBar.jsx
+│   ├── MovieCard.jsx
+│   ├── MovieList.jsx
+│   ├── MovieDetail.jsx
+│   ├── Cart.jsx
+│   └── Toast.jsx
+│
+├── data/
+│   └── movies.js
+│
+├── assets/
+│   └── posters/
+│
+├── App.jsx
+└── main.jsx
 
 ---
 
